@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: skyblue;
+    height: 100vh;
+}
+
+form {
+    width: fit-content;
+    background-color: #FFF;
+    padding: 10px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10pt;
+    box-shadow: 5px 4px 16px 2px #EEE;
+}
+
+form img {
+    margin: 0 auto;
+}
+
+form h3 {
+    color: #555;
+    font-size: 16px;
+    margin: 15px;
+}
+
+form div {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form div input {
+    border: 0;
+    outline: none;
+    padding: 10px;
+    width: calc(100% - 30px);
+    border-bottom: 1px solid #CCC;
+}
+
+form button {
+    background-color: skyblue;
+    border: 0;
+    outline: none;
+    color: #FFF;
+    font-size: 20px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+a {
+    color: skyblue;
+}
+
+.lock input {
+    width: calc(100% - 50px);
+}
